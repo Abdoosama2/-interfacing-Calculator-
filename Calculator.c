@@ -1,4 +1,19 @@
-DIO_INIT();
+
+
+
+#include "Utils.h"
+#include "DIO_interface.h"
+#include "lcd.h"
+#include "StdTypes.h"
+#include "KeyPad_interface.h"
+
+int main(){
+	
+	
+
+
+
+  DIO_INIT();
 	LCD_Init();
 	KEYPAD_init();
 	
@@ -142,4 +157,4 @@ s32 num1=0,num2=0,num3=0,result=0;
 		}
 	}
 			
-	
+	}

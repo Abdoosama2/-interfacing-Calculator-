@@ -1,6 +1,9 @@
 
 
 
+
+//includes 
+
 #include "Utils.h"
 #include "DIO_interface.h"
 #include "lcd.h"
@@ -13,7 +16,7 @@ int main(){
 
 
 
-  DIO_INIT();
+    DIO_INIT();
 	LCD_Init();
 	KEYPAD_init();
 	
